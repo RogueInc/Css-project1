@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overscroll-behavior-x: contain;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  background-color: #383b2b;
+  width: 100vw;
+  opacity: 1;
+}
+.menu {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  gap: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.menu button {
+  width: 100px;
+  height: 100%;
+  background-color: #756b57;
+  color: #030202;
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+.aboutnav {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+.productnav {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.logo {
+  display: flex;
+  opacity: 1;
+  color: #fff;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.hero {
+  display: flex;
+  height: 100vh;
+  width: auto;
+}
+.herodesc {
+  position: absolute;
+  left: 80px;
+  top: 110px;
+  padding: 10px;
+}
+.left h1 {
+  word-wrap: break-word;
+  position: absolute;
+  font-size: 40px;
+  height: 40vh;
+  width: 30vw;
+}
+.left {
+  flex: 1;
+  display: flex;
+  background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 10%,
+      #ea858a 10%,
+      #ea858a calc(10% + 3px),
+      transparent calc(10% + 3px),
+      transparent 100%
+    ),
+    linear-gradient(180deg, white 10%, transparent 10%),
+    repeating-linear-gradient(
+      180deg,
+      #91c1e1 0px,
+      #91c1e1 2px,
+      transparent 2px,
+      transparent 38px
+    ),
+    linear-gradient(white, white);
+}
+.left h1 {
+  position: absolute;
+  top: 50px;
+  padding: 0;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(246, 246, 141), transparent);
+
+  position: relative;
+}
+.lemons {
+  position: absolute;
+  top: 100px;
+  height: 500px;
+  width: 600px;
+  top: 200px;
+  left: 100px;
+  object-fit: contain;
+
+  animation: moveit 2s infinite ease alternate;
+}
+
+@keyframes moveit {
+  to {
+    transform: translateY(30px);
+  }
+}
+.desc {
+  position: absolute;
+  gap: 20px;
+}
+
+.desc h1 {
+  font-size: 74px;
+  top: 40px;
+  margin: 20px 0 0 80px;
+  position: relative;
+}
+.desc h2 {
+  padding: 20px;
+  margin: 20px 0 0 80px;
+}
+.work {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+.left2 {
+  flex: 2;
+  display: flex;
+  background: linear-gradient(to left, rgb(230, 77, 77), transparent);
+}
+.apple {
+  object-fit: contain;
+  bottom: 200px;
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  padding: 0;
+  bottom: 0;
+  left: 80px;
+}
+.visible {
+  opacity: 1;
+}
+
+.right2 {
+  flex: 3;
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 10%,
+      #db676c 10%,
+      #db676c calc(10% + 2px),
+      transparent calc(10% + 2px),
+      transparent 100%
+    ),
+    linear-gradient(180deg, white 10%, transparent 10%),
+    repeating-linear-gradient(
+      180deg,
+      #91c1e1 0px,
+      #91c1e1 2px,
+      transparent 2px,
+      transparent 32px
+    ),
+    linear-gradient(white, white);
+}
+.rightdesc {
+  word-wrap: break-word;
+  width: 50vw;
+  position: absolute;
+  right: 25px;
+  padding: 20px;
+  top: 100px;
+  font-size: 40px;
+}
+.applecontainer {
+  position: relative;
+  top: 0px;
+  right: 0;
+}
+.appledesc h1 {
+  font-size: 74px;
+  top: 40px;
+  margin: 20px 0 0 80px;
+  position: relative;
+}
+.appledesc h2 {
+  padding: 20px;
+  margin: 20px 0 0 80px;
+}
+.menu a {
+  width: 100px;
+  height: 60px;
+}
+

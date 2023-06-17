@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+    <link rel="icon" href="assests/cat.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar" data-aos="fade-down">
+      <div class="logo">
+        <img class="logo" src="assests/cat.svg" alt="logo" />
+        <h3>Farmzzzzz</h3>
+      </div>
+      <div class="menu">
+        <a href="./about.html" class="aboutnav"><h3>About</h3></a>
+        <a href="./produce.html" class="productnav"><h3>Our produce</h3></a>
+        <a href="./contact.html"><button>Contact</button></a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="left">
+        <div class="herodesc" data-aos="fade-right" data-aos-duration="1000">
+          <h1>
+            Welcome to our lush and bountiful orchard, where nature's finest
+            treasures thrive under the warm sun and fertile soil.
+          </h1>
+        </div>
+      </div>
+      <div class="right">
+        <div class="desc" data-aos="fade-down" data-aos-duration="500">
+          <h1 class="farmdesc">The freshest</h1>
+          <h2>-Handpicked with love.</h2>
+        </div>
+        <div class="lemon" data-aos="fade-left" data-aos-delay="500">
+          <img
+            class="lemons"
+            src="./assests/lemons.png"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="work">
+      <div class="left2">
+        <h2></h2>
+        <div
+          class="applecontainer"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-easing="ease-in-out"
+        >
+        <div class="appledesc" data-aos="flip-up" data-aos-duration="500">
+          <h1 class="2desc">The freshest</h1>
+          <h2>-Handpicked with love.</h2>
+        </div>
+          <img
+            class="apple"
+            src="./assests/apples.png"
+            alt="apple"
+          />
+        </div>
+      </div>
+      <div class="right2">
+        <h2 class="rightdesc" data-aos="fade-down" data-aos-duration="1000">
+          We take great joy in sharing the fruits of our labor with the
+          community. Whether you're looking for wholesome ingredients for your
+          family meals, fresh produce for your farmers' market stand, or simply
+          an idyllic day out in nature, our orchard is the perfect destination.
+        </h2>
+      </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="./home.js"></script> -->
+  <script>
+    AOS.init();
+  </script>
+</html>

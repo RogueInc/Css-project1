@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto:ital,wght@1,100&display=swap");
+.produce {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 280px;
+  height: 240px;
+}
+.left1 img {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  width: 350px;
+  height: 250px;
+}
+.left2 img {
+  position: absolute;
+  width: 300px;
+  top: 480px;
+  left: 480px;
+}
+.right1 img {
+  position: absolute;
+  top: 95px;
+  right: 425px;
+  width: 300px;
+  height: 250px;
+}
+.right2 img {
+  position: absolute;
+  bottom: 120px;
+  width: 300px;
+  height: 250px;
+}
+.left1 {
+  height: 50vh;
+  background: linear-gradient(to bottom, #444, transparent);
+}
+.left2 {
+  height: 50vh;
+  background: linear-gradient(to right, #444, transparent);
+}
+.right1 {
+  height: 50vh;
+
+  background: linear-gradient(to left, #444, transparent);
+}
+.right2 {
+  height: 50vh;
+
+  background: linear-gradient(to top, #444, transparent);
+}
+.left1desc {
+  padding: 50px;
+}
+.left2desc {
+  padding: 50px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+.right1desc {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.right2desc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 40px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Rajdhani", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.titl {
+  position: absolute;
+  right: 580px;
+  top: 0;
+  padding: 0;
+  height: 150px;
+  padding: 0;
+}
+.titl h1{
+  font-size: 60px;
+}

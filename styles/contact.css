@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to right, pink, transparent);
+}
+.container {
+  display: flex;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  gap: 15px;
+}
+
+.contact input {
+  padding: 15px;
+}
+.contact textarea {
+  padding: 15px;
+}
+.contact button {
+  height: 50px;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: 	#FFC0CB;
+}
+.bgimg {
+  position: absolute;
+  right: 100px;
+  bottom: 150px;
+}
+.bgimg img {
+  height: 400px;
+  width: 500px;
+}
+
+.cherryblosom {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 300px;
+}
